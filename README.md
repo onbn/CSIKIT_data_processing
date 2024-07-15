@@ -1,1 +1,5 @@
 # CSIKIT_data_processing
+wifilib.py用于读取.dat文件，并对齐数据、取相位商、去除无穷大和0值，再取相位和振幅，最后返回np格式数组
+standardization_fn.py用于标准化数据
+dataset_process.py中仅做了滑窗处理
+augmented_data_process.py中在dataset_process.py的基础上做了一系列数据增强
